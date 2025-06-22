@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
 
-# Pull atomic weights from local CSV file
+# pull atomic weights from local CSV file
 aw_df = pd.read_csv('atomic_weights.csv')
 aw_dict = aw_df.set_index('Symbol')['Atomic_Weight'].to_dict()
 
-# Function to calculate the molecular weight
+# calculate the molecular weight
 def calculate_mw(molecule):
     weight = 0.0
     i = 0

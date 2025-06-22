@@ -2,9 +2,9 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Currently reads a CSV file called "spectra.csv" in the same directory. For a different spectra, just change the file. 
+# currently reads a CSV file called "spectra.csv" in the same directory. For a different spectra, just change the file. 
 
-# Script is used for TEMPERATURE dependent spectra.
+# script is used for TEMPERATURE dependent spectra.
 
 print ("Enter a title for the spectra plot:")
 spectra_title = input().strip()
